@@ -1,0 +1,41 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.dropdown-content{
+  display: none;
+  background-color:   rgba(201, 199, 199, 0.418);
+  
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  position: absolute;
+  top: 40px;
+  /* right: 0px; */
+
+
+}
+.dropdown-content #link{
+  color: black;
+  /* position: relative; */
+  
+}
+.dropdown-content #link:hover{
+  
+ color:  rgb(60, 57, 57);
+}
+.header{
+  padding-top: 3px;
+padding-left: 20px;
+margin-left: 20px;
+}
+.header2{
+  backdrop-filter: blur(10px); 
+  background-color: rgba(136, 127, 107, 0.461);;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  height: 35px;
+}
+
+
